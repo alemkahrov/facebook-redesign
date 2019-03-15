@@ -1,0 +1,152 @@
+// HEADER LOGO
+.logo { 
+    &__icon {
+        height: 4rem;
+        width: 4rem;
+        fill: $color-blue;
+    }
+}
+
+// NAV LINKS
+.nav {
+    list-style: none;
+    margin-left: 3rem;
+
+    display: flex;
+    align-self: stretch;
+    
+
+    &__item {
+        display: inline-block;
+        padding: 0 1.5rem;
+        height: 100%;
+        cursor: pointer;
+
+        display: flex;
+        align-items: center;
+
+        &:hover {
+            //background-color: $color-blue;
+            background-color: $color-grey-light-2;
+            //color: #fff;
+        }
+    }
+
+    &__link {
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: inherit;
+        text-transform: capitalize;
+        text-decoration: none;
+        
+    }
+}
+
+// SEARCH INPUT
+.search {
+    flex: 0 0 40%;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__input {
+        border: none;
+        border-radius: 10rem;
+        width: 80%;
+        padding: .8rem 2rem;
+        font-family: inherit;
+        font-size: inherit;
+        display: flex;
+        background-color: $color-grey-light-2;
+        color: inherit;
+        margin-right: -3rem;
+        transition: all .5s;
+
+        &:focus {
+            width: 100%;
+            outline: none;
+            background-color: $color-grey-light-3;
+        }
+
+        &::-webkit-input-placeholder {
+            font-weight: 100;
+            color: $color-grey-light-4;
+        }
+    }
+
+    &__btn {
+        display: flex;
+        transition: all .2s;
+    }
+
+    &__icon {
+        height: 1.6rem;
+        width: 1.6rem;
+        fill: $color-grey-dark-2;
+        cursor: pointer;
+        
+        &:active {
+            transform: translateY(3px);
+        }
+    }
+}
+
+// USER NAV
+.user-nav {
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+
+    &__icon-box {
+        padding: 0 1.5rem;
+        height: 100%;
+        cursor: pointer;
+        position: relative;
+
+        display: flex;
+        align-items: center;
+
+        &:hover {
+            background-color: $color-grey-light-2;
+        }
+    }
+
+    &__icon {
+        width: 2rem;
+        height: 2rem;
+        fill: $color-grey-dark-2;
+    }
+
+    &__notification {
+        background-color: $color-blue;
+        height: 1.5rem;
+        width: 1.5rem;
+        border-radius: 50%;
+        color: #fff;
+        font-size: .9rem;
+        font-weight: 400;
+        position: absolute;
+        top: 1.3rem;
+        left: 2.2rem;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__user-img {
+        border-radius: 50%;
+        height: 3.5rem;
+        margin-right: .5rem;
+    }
+
+    &__user-icon {
+        width: 2.2rem;
+        height: 2.2rem;
+        fill: $color-grey-dark-2;
+    }
+}
+

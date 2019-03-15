@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #777;
+  line-height: 1.6;
+  background-color: #f4f2f2; }
+
+.hero {
+  position: relative;
+  background: url("../img/mountain-small.jpeg");
+  height: 65vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0 6rem;
+  display: flex;
+  align-items: flex-end; }
+  .hero__content-box {
+    margin-right: auto;
+    margin-bottom: 6rem;
+    display: flex;
+    align-items: center; }
+  .hero__avatar {
+    border-radius: 50%; }
+  .hero__user-info {
+    margin-left: 2rem; }
+  .hero__heading {
+    font-family: inherit;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: .8rem; }
+  .hero__edit-button {
+    font-family: inherit;
+    font-size: 1.2rem;
+    color: #faf9f9;
+    text-transform: capitalize;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: .8rem 1.4rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: flex-start; }
+  .hero__edit-icon {
+    width: 1.8rem;
+    height: 1.8rem;
+    fill: #faf9f9;
+    margin-right: .7rem; }
+
+.container {
+  max-width: 120rem;
+  margin: 6rem auto; }
+
+.header {
+  background-color: #fff;
+  height: 6rem;
+  font-size: 1.3rem;
+  padding-left: 1.5rem;
+  display: flex;
+  align-items: center; }
+
+.content {
+  display: flex;
+  min-height: 100vh; }
+
+.sidebar {
+  background-color: orangered;
+  flex: 0 0 30%; }
+
+.main {
+  background-color: yellowgreen;
+  flex: 1; }
+
+.friends {
+  background-color: darkorchid;
+  flex: 0 0 18%; }
+
+.logo__icon {
+  height: 4rem;
+  width: 4rem;
+  fill: blue; }
+
+.nav {
+  list-style: none;
+  margin-left: 3rem;
+  display: flex;
+  align-self: stretch; }
+  .nav__item {
+    display: inline-block;
+    padding: 0 1.5rem;
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center; }
+    .nav__item:hover {
+      background-color: #f4f2f2; }
+  .nav__link {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: inherit;
+    text-transform: capitalize;
+    text-decoration: none; }
+
+.search {
+  flex: 0 0 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .search__input {
+    border: none;
+    border-radius: 10rem;
+    width: 80%;
+    padding: .8rem 2rem;
+    font-family: inherit;
+    font-size: inherit;
+    display: flex;
+    background-color: #f4f2f2;
+    color: inherit;
+    margin-right: -3rem;
+    transition: all .5s; }
+    .search__input:focus {
+      width: 100%;
+      outline: none;
+      background-color: #f0eeee; }
+    .search__input::-webkit-input-placeholder {
+      font-weight: 100;
+      color: #ccc; }
+  .search__btn {
+    display: flex;
+    transition: all .2s; }
+  .search__icon {
+    height: 1.6rem;
+    width: 1.6rem;
+    fill: #777;
+    cursor: pointer; }
+    .search__icon:active {
+      transform: translateY(3px); }
+
+.user-nav {
+  display: flex;
+  align-self: stretch;
+  align-items: center; }
+  .user-nav__icon-box {
+    padding: 0 1.5rem;
+    height: 100%;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center; }
+    .user-nav__icon-box:hover {
+      background-color: #f4f2f2; }
+  .user-nav__icon {
+    width: 2rem;
+    height: 2rem;
+    fill: #777; }
+  .user-nav__notification {
+    background-color: blue;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    color: #fff;
+    font-size: .9rem;
+    font-weight: 400;
+    position: absolute;
+    top: 1.3rem;
+    left: 2.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .user-nav__user-img {
+    border-radius: 50%;
+    height: 3.5rem;
+    margin-right: .5rem; }
+  .user-nav__user-icon {
+    width: 2.2rem;
+    height: 2.2rem;
+    fill: #777; }
+
+.btn {
+  font-family: inherit;
+  font-size: 1.4rem;
+  background-color: rgba(250, 249, 249, 0.5);
+  padding: 1.2rem 2.2rem;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  color: #faf9f9;
+  border: none;
+  margin-right: 1rem; }

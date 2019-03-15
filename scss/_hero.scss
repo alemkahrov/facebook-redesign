@@ -1,0 +1,56 @@
+.hero {
+    position: relative;
+    background: url('../img/mountain-small.jpeg');
+    height: 65vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0 6rem;
+
+    display: flex;
+    align-items: flex-end;
+
+    &__content-box {
+        margin-right: auto;
+        margin-bottom: 6rem;
+
+        display: flex;
+        align-items: center;
+    }
+
+    &__avatar {
+        border-radius: 50%;
+    }
+
+    &__user-info {
+        margin-left: 2rem;
+    }
+
+    &__heading {
+        font-family: inherit;
+        color: #fff;
+        text-transform: uppercase;
+        margin-bottom: .8rem;
+    }
+
+    &__edit-button {
+        font-family: inherit;
+        font-size: 1.2rem;
+        color: $color-grey-light-1;
+        text-transform: capitalize;
+        background-color: rgba(0,0,0, .6);
+        padding: .8rem 1.4rem;
+        cursor: pointer;
+        margin-bottom: 2rem;
+
+        display: flex;
+        align-items: flex-start;
+    }
+
+    &__edit-icon {
+        width: 1.8rem;
+        height: 1.8rem;
+        fill: $color-grey-light-1;
+        margin-right: .7rem;
+    }
+}
