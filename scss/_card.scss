@@ -1,0 +1,57 @@
+.card {
+    background-color: #fff;
+    padding: 1.5rem;
+    font-family: inherit;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 1rem 4rem rgba(0,0,0, .1);
+
+    &__intro {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+
+    &__icon-box {
+        background-color: blueviolet;
+        margin-right: 1rem;
+        padding: .5rem;
+        border-radius: 50%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__icon {
+        width: 2.2rem;
+        height: 2.2rem;
+        fill: #fff;
+    }
+
+    &__title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+
+    &__heading-2 {
+        font-size: 1.4rem;
+        text-transform: capitalize;
+        margin-bottom: .7rem;
+        font-weight: 400;
+    }
+
+    &__text {
+        font-size: 1.150rem;
+
+        &--country {
+            margin-top: .5rem;
+        }
+    }
+
+    &__heading-3 {
+        font-weight: 400;
+        margin-top: .7rem;
+        text-transform: uppercase;
+    }
+}
