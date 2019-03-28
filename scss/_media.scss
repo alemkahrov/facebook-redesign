@@ -1,0 +1,42 @@
+.media-comment {
+    background-color: $color-grey-light-2;
+    border-bottom: $border-light;
+    padding: 1.5rem;
+
+    display: flex;
+
+    &__img {
+        border-radius: 50%;
+        height: 4.5rem;
+    }
+
+    &__body  {
+        margin-left: 1.5rem;
+    }
+
+    &__heading {
+        font-size: 1.4rem;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: $color-blue;
+        margin-bottom: .5rem;
+        margin-right: auto;
+    }
+
+    &__text {
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: $color-grey-dark-3;
+    }
+
+    &__time-box {
+        font-size: 1.2rem;
+
+        display: flex;
+    }
+
+    span {
+        margin-left: .5rem;
+    }
+
+}

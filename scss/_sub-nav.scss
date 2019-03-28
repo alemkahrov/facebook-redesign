@@ -1,0 +1,60 @@
+.sub-nav {
+    background-color: #fff;
+    font-size: 1.4rem;
+    font-weight: 400;
+    position: relative;
+    z-index: 10;
+    margin-bottom: 1.2rem;
+    margin-top: -8.5rem;
+    list-style: none;
+    box-shadow: $shadow-light;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__item {
+        padding: 1.4rem 3rem;
+        border-bottom: 3px solid transparent;
+        cursor: pointer;
+
+        &:hover {
+            border-color: $color-blue;
+
+            span {
+                color: $color-blue;
+            }
+
+            svg {
+                fill: $color-blue;
+            }
+        }
+    }
+
+    &__link {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: inherit;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__icon {
+        width: 1.8rem;
+        height: 1.8rem;
+        margin-bottom: .3rem;
+    }
+
+    &__icon-box {
+        display: flex;
+        padding: 0 2rem;
+        cursor: pointer;
+    }
+
+    &__svg-icon {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+}

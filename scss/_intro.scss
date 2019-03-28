@@ -14,7 +14,7 @@
     &__icon-box {
         background-color: blueviolet;
         margin-right: 1rem;
-        padding: .5rem;
+        padding: .8rem;
         border-radius: 50%;
 
         display: flex;
@@ -23,8 +23,8 @@
     }
 
     &__icon {
-        width: 2.2rem;
-        height: 2.2rem;
+        width: 3rem;
+        height: 3rem;
         fill: #fff;
     }
 
@@ -37,21 +37,26 @@
     &__heading-2 {
         font-size: 1.4rem;
         text-transform: capitalize;
-        margin-bottom: .7rem;
+        margin-bottom: 1.2rem;
         font-weight: 400;
     }
 
     &__text {
-        font-size: 1.150rem;
+        font-size: 1.3rem;
+        font-weight: 400;
+        color: $color-grey-dark-3;
 
-        &--country {
-            margin-top: .5rem;
+        &:not(:last-of-type) {
+            margin-bottom: .8rem;
         }
+
     }
 
     &__heading-3 {
         font-weight: 400;
-        margin-top: .7rem;
+        margin-top: 1.2rem;
         text-transform: uppercase;
+        color: $color-blue;
+        font-size: 1.4rem;
     }
 }

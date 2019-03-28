@@ -1,0 +1,86 @@
+.card-post {
+    background-color: #fff;
+    box-shadow: $shadow-light;
+    margin-bottom: 1.5rem;
+
+    &__description {
+        padding: 1.5rem;
+
+        display: flex;
+        align-items: center;
+    }
+
+    &__img {
+        height: 4.5rem;
+        border-radius: 50%;
+    }
+
+    &__user-info {
+        margin-left: 1rem;
+    }
+
+    &__text {
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
+
+    &__date {
+        font-size: 1.150rem;
+        font-weight: 400;
+        color: $color-grey-dark-3;
+    }
+
+    &__name {
+        font-weight: 600;
+        color: $color-blue;
+    }
+
+    &__link {
+        text-decoration: none;
+        font-weight: 400;
+        color: $color-blue;
+    }
+
+    &__picture-box {
+
+    }
+
+    &__picture {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    &__footer-icons {
+        padding: 1.5rem;
+        display: flex;
+        align-items: center;
+    }
+
+    &__like-box {
+        margin-right: 2rem;
+    }
+
+    &__forward-box {
+        margin-right: auto;
+    }
+
+    &__icon {
+        width: 2rem;
+        height: 2rem;
+        fill: $color-grey-dark-3;
+        cursor: pointer;
+    }
+
+    &__message-box {
+        display: flex;
+        align-items: center;
+    }
+
+    &__messages {
+        margin-left: 1rem;
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: $color-grey-dark-3;
+    }
+}

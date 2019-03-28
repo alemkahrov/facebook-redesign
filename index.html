@@ -58,47 +58,299 @@
                         <use xlink:href="img/sprite.svg#icon-sphere"></use>
                     </svg>
                 </div>
-                <div class="user-nav__icon-box">
-                    <img src="img/user-3.jpg" alt="User Image" class="user-nav__user-img">
-                    <svg class="user-nav__user-icon">
+                <div class="user-nav__img-box">
+                    <img src="img/user-3.jpg" alt="User Image" class="user-nav__img">
+                    <svg class="user-nav__icon">
                         <use xlink:href="img/sprite.svg#icon-menu3"></use>
                     </svg>  
                 </div>
             </nav>
-
-            
         </header>
 
         <div class="hero">
-           <!-- <img src="img/user-3.jpg" alt="User Image Large" class="hero__avatar"> -->
             <div class="hero__content-box">
                 <img src="img/user-3.jpg" alt="User Image Large" class="hero__avatar">
-                
                 <div class="hero__user-info">
                     <h1 class="hero__heading">ben smith</h1>
                     <a href="#" class="btn">update info</a>
                     <a href="#" class="btn">view activity</a>
                 </div>
             </div>
-            <div class="hero__edit-button">
-                <svg class="hero__edit-icon">
-                    <use xlink:href="img/sprite.svg#icon-add_a_photo"></use>
-                </svg>
-                <span>edit cover</span>
-            </div>
         </div>
 
         <div class="content">
             <div class="sidebar">
-                Sidebar
+                <div class="card">
+                    <div class="card__intro">
+                        <div class="card__icon-box">
+                            <svg class="card__icon">
+                                <use xlink:href="img/sprite.svg#icon-globe"></use>
+                            </svg>
+                        </div>
+                        <span class="card__title">intro</span>
+                    </div>
+                    <h2 class="card__heading-2">full stack developer</h2>
+                    <p class="card__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, corporis?</p>
+                    <p class="card__text">Lorem ipsum dolor sit amet.</p>
+                    <h3 class="card__heading-3">update info</h3>
+                </div>
+
+                <div class="card">
+                    <div class="card__intro">
+                        <div class="card__icon-box">
+                            <svg class="card__icon">
+                                <use xlink:href="img/sprite.svg#icon-camera"></use>
+                            </svg>
+                        </div>
+                        <span class="card__title">photos</span>
+                    </div>
+                    <div class="sidebar-gallery">
+                        <img src="img/user-1.jpg" alt="" class="sidebar-gallery__img">
+                        <img src="img/user-1.jpg" alt="" class="sidebar-gallery__img">
+                        <img src="img/user-1.jpg" alt="" class="sidebar-gallery__img">
+                        <img src="img/user-1.jpg" alt="" class="sidebar-gallery__img">
+                        <img src="img/user-1.jpg" alt="" class="sidebar-gallery__img">
+                        <img src="img/user-1.jpg" alt="" class="sidebar-gallery__img">
+                        <img src="img/user-1.jpg" alt="" class="sidebar-gallery__img">
+                        <img src="img/user-1.jpg" alt="" class="sidebar-gallery__img">
+                        <img src="img/user-1.jpg" alt="" class="sidebar-gallery__img">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__intro">
+                        <div class="card__icon-box">
+                            <svg class="card__icon">
+                                <use xlink:href="img/sprite.svg#icon-people"></use>
+                            </svg>
+                        </div>
+                        <span class="card__title">friends</span>
+                    </div>
+                    <div class="sidebar-gallery">
+                        <img src="img/user-1.jpg" alt="" class="sidebar-gallery__img">
+                        <img src="img/user-1.jpg" alt="" class="sidebar-gallery__img">
+                        <img src="img/user-1.jpg" alt="" class="sidebar-gallery__img">
+                        <img src="img/user-1.jpg" alt="" class="sidebar-gallery__img">
+                        <img src="img/user-1.jpg" alt="" class="sidebar-gallery__img">
+                        <img src="img/user-1.jpg" alt="" class="sidebar-gallery__img">
+                        <img src="img/user-1.jpg" alt="" class="sidebar-gallery__img">
+                        <img src="img/user-1.jpg" alt="" class="sidebar-gallery__img">
+                        <img src="img/user-1.jpg" alt="" class="sidebar-gallery__img">
+                    </div>
+                </div>
             </div>
 
             <div class="main">
-                Main
+                <ul class="sub-nav">
+                    <li class="sub-nav__item">
+                        <a href="#" class="sub-nav__link">
+                            <svg class="sub-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-sphere"></use>
+                            </svg>
+                            <span>timeline</span>
+                        </a>
+                    </li>
+                    <li class="sub-nav__item">
+                        <a href="#" class="sub-nav__link">
+                            <svg class="sub-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-sphere"></use>
+                            </svg>
+                            <span>about</span>
+                        </a>
+                    </li>
+                    <li class="sub-nav__item">
+                        <a href="#" class="sub-nav__link">
+                            <svg class="sub-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-sphere"></use>
+                            </svg>
+                            <span>friends</span>
+                        </a>
+                    </li>
+                    <li class="sub-nav__item">
+                        <a href="#" class="sub-nav__link">
+                            <svg class="sub-nav__icon">
+                                <use xlink:href="img/sprite.svg#icon-sphere"></use>
+                            </svg>
+                            <span>photos</span>
+                        </a>
+                    </li>
+                    <div class="sub-nav__icon-box">
+                        <svg class="sub-nav__svg-icon">
+                            <use xlink:href="img/sprite.svg#icon-more_vert"></use>
+                        </svg>
+                    </div>
+                </ul>
+
+                <div class="card-post">
+                    <div class="card-post__description">
+                        <img src="img/user-1.jpg" alt="" class="card-post__img">
+                        <div class="card-post__user-info">
+                            <p class="card-post__text"><span class="card-post__name">Ben Smith</span>  shared a <span><a href="#" class="card-post__link">link</a></span></p>
+                            <p class="card-post__date">March 19 at 16:11 PM via Instagram</p>
+                        </div>
+                    </div>
+
+                    <div class="card-post__picture-box">
+                        <img src="img/arctic-lights.jpg" alt="" class="card-post__picture">
+                    </div>
+
+                    <div class="card-post__footer-icons">
+                        <div class="card-post__like-box">
+                            <svg class="card-post__icon">
+                                <use xlink:href="img/sprite.svg#icon-thumbs-o-up"></use>
+                            </svg>
+                        </div>
+                        <div class="card-post__forward-box">
+                            <svg class="card-post__icon">
+                                <use xlink:href="img/sprite.svg#icon-forward"></use>
+                            </svg>
+                        </div>
+                        <div class="card-post__message-box">
+                            <svg class="card-post__icon">
+                                <use xlink:href="img/sprite.svg#icon-message"></use>
+                            </svg>
+                            <span class="card-post__messages">2</span>
+                        </div>
+                    </div>
+
+                    <div class="media-comment">
+                            <img src="img/user-2.jpg" alt="User comment" class="media-comment__img">
+                        <div class="media-comment__body">
+                            <h4 class="media-comment__heading">kelly simpson</h4>
+                            <p class="media-comment__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ut eius iste ipsa. Beatae ea, labore itaque magnam distinctio consectetur.</p>
+                        </div>
+                        <div class="media-comment__time-box">
+                            <p class="media-comment__time">13:16</p>
+                            <span>PM</span>
+                        </div>
+                    </div>
+                    <div class="media-comment">
+                            <img src="img/user-4.jpg" alt="User comment" class="media-comment__img">
+                        <div class="media-comment__body">
+                            <h4 class="media-comment__heading">jorge vidal</h4>
+                            <p class="media-comment__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ut eius iste ipsa. Beatae ea, labore itaque magnam distinctio consectetur.</p>
+                        </div>
+                        <div class="media-comment__time-box">
+                            <p class="media-comment__time">18:22</p>
+                            <span>PM</span>
+                        </div>
+                    </div>
+
+                    <div class="comment">
+                        <img src="img/user-3.jpg" alt="" class="comment__img">
+                        <form action="" class="comment__field">
+                            <input type="text" class="comment__input" placeholder="Write a comment...">
+                            <div class="comment__icons">
+                                <svg class="comment__icon">
+                                    <use xlink:href="img/sprite.svg#icon-camera1"></use>
+                                </svg>
+                                <svg class="comment__icon">
+                                    <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                                </svg>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="card-post">
+                    <div class="card-post__description">
+                        <img src="img/user-5.jpg" alt="" class="card-post__img">
+                        <div class="card-post__user-info">
+                            <p class="card-post__text"><span class="card-post__name">Alex Barkins</p>
+                            <p class="card-post__date">March 17 at 16:11 PM</p>
+                        </div>
+                    </div>
+
+                    <div class="grid-gallery">
+                        <figure class="grid-gallery__item grid-gallery__item--1">
+                            <img src="img/polar-1.jpg" alt="" class="grid-gallery__img">
+                        </figure>
+                        <figure class="grid-gallery__item grid-gallery__item--2">
+                            <img src="img/polar-7.jpg" alt="" class="grid-gallery__img">
+                        </figure>
+                        <figure class="grid-gallery__item grid-gallery__item--3">
+                            <img src="img/polar-6.jpg" alt="" class="grid-gallery__img">
+                        </figure>
+                    </div>
+
+                    <div class="card-post__footer-icons">
+                        <div class="card-post__like-box">
+                            <svg class="card-post__icon">
+                                <use xlink:href="img/sprite.svg#icon-thumbs-o-up"></use>
+                            </svg>
+                        </div>
+                        <div class="card-post__forward-box">
+                            <svg class="card-post__icon">
+                                <use xlink:href="img/sprite.svg#icon-forward"></use>
+                            </svg>
+                        </div>
+                        <div class="card-post__message-box">
+                            <svg class="card-post__icon">
+                                <use xlink:href="img/sprite.svg#icon-message"></use>
+                            </svg>
+                            <span class="card-post__messages">2</span>
+                        </div>
+                    </div>
+
+                    <div class="media-comment">
+                            <img src="img/user-2.jpg" alt="User comment" class="media-comment__img">
+                        <div class="media-comment__body">
+                            <h4 class="media-comment__heading">kelly simpson</h4>
+                            <p class="media-comment__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ut eius iste ipsa. Beatae ea, labore itaque magnam distinctio consectetur.</p>
+                        </div>
+                        <div class="media-comment__time-box">
+                            <p class="media-comment__time">13:16</p>
+                            <span>PM</span>
+                        </div>
+                    </div>
+                    <div class="media-comment">
+                            <img src="img/user-4.jpg" alt="User comment" class="media-comment__img">
+                        <div class="media-comment__body">
+                            <h4 class="media-comment__heading">jorge vidal</h4>
+                            <p class="media-comment__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ut eius iste ipsa. Beatae ea, labore itaque magnam distinctio consectetur.</p>
+                        </div>
+                        <div class="media-comment__time-box">
+                            <p class="media-comment__time">18:22</p>
+                            <span>PM</span>
+                        </div>
+                    </div>
+
+                    <div class="comment">
+                        <img src="img/user-3.jpg" alt="" class="comment__img">
+                        <form action="" class="comment__field">
+                            <input type="text" class="comment__input" placeholder="Write a comment...">
+                            <div class="comment__icons">
+                                <svg class="comment__icon">
+                                    <use xlink:href="img/sprite.svg#icon-camera1"></use>
+                                </svg>
+                                <svg class="comment__icon">
+                                    <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                                </svg>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
             
             <div class="friends">
-                Friends
+                <div class="friend-list">
+                    <div class="friend-list__img-box">
+                        <img src="img/user-5.jpg" alt="" class="friend-list__img">
+                        <span class="friend-list__notification"></span>
+                    </div>
+                    <div class="friend-list__img-box">
+                        <img src="img/user-5.jpg" alt="" class="friend-list__img">
+                        <span class="friend-list__notification"></span>
+                    </div>
+                    <div class="friend-list__img-box">
+                        <img src="img/user-5.jpg" alt="" class="friend-list__img">
+                        <span class="friend-list__notification"></span>
+                    </div>
+                    <div class="friend-list__img-box">
+                        <img src="img/user-5.jpg" alt="" class="friend-list__img">
+                        <span class="friend-list__notification--offline"></span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

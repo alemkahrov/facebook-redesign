@@ -1,0 +1,23 @@
+.friend-list {
+    margin-top: 1.5rem;
+    
+
+    
+    &__img {
+        height: 4.5rem;
+        border-radius: 50%;
+        display: block;
+        margin-bottom: 2.5rem;
+
+        &:nth(:last-of-type) {
+            margin-bottom: 0;
+        }
+    }
+
+    &__notification {
+        border-radius: 50%;
+        height: 2rem;
+        width: 2rem;
+        background-color: red; 
+    }
+}
